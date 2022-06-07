@@ -13,7 +13,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Initialize SDK for the project (see pico-sdk directory in build directory)
 pico_sdk_init()
 
-# Define source and libraries used
+# Define target ${CMAKE_PROJECT_NAME}
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
 )
