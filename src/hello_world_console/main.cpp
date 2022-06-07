@@ -1,7 +1,7 @@
 #include <iostream>
 #include "pico/stdlib.h"
 
-int main(int argc, char *argv[])
+int main()
 {
     stdio_init_all();
 
@@ -9,5 +9,4 @@ int main(int argc, char *argv[])
         std::cout << "Hello world !\n";
         sleep_ms(1000);
     }
-    return 0;
 }
